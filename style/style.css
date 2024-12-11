@@ -16,11 +16,9 @@ body {
 }
 
 #titres {
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
+    text-align: center;
     width : 100%;
-    color: yellow;
+    color: #ffcf68;
 }
 
 nav {
@@ -33,12 +31,15 @@ nav {
     width: 20vw;
     height: 100vh;
     background-color: black;
-    color: yellow;
+    color: #ffcf68;
     top: 0vh;
+
+    text-align: center;
 }
 
 #logo {
     height: 30%;
+    margin-top: -3vh;
 }
 
 main {
@@ -51,24 +52,26 @@ main {
 }
 
 article {
-    width : 60%;
-    padding: 20px;
+    height: 50vh;
+    width: 60vw;
+    padding: 5px;
     margin: 30px;
     box-shadow: #000000 2px 2px 5px 0;
     border-radius: 5px;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
-#goupe1 {
-    width: 600px;
+p
+{
+   margin:15px;
 }
 
-#image2 {
-    background-image:url(../asset/images/groupPn2.webp);
-    background-size: 600px;
-    width: 1344px;
-    height: 896px;
-    background-repeat: no-repeat;
+#groupe1, #groupe2 {
+    width: 550px;
+    height: 367px;
+    display: block;
+    margin: auto;
+    padding: 20px;
 }
 
 .bouton {
@@ -76,9 +79,15 @@ article {
     text-decoration: none;
     width: 80%;
     height: 5vh;
-    color: yellow;
+    color: #ffcf68;
     text-align: center;
     padding-top: 7px;
     border-radius: 2.5vh;
     transition: background-color 600ms, color 100ms, border 1200ms;
+}
+
+#divTest, #divQuiMarche{
+    display: flex;
+    flex-direction: row;
+
 }
